@@ -30,5 +30,12 @@ describe("Evalua clase", () => {
 
     expect(resp).toBe(50)
   })
+  it("Debe retornar 0, en caso reciba 100 o mas", () => {
+    // const jugador = new Jugador();
+    const resp = jugador.recibeDanio(110);
+
+    expect(resp).toBe(0)
+  })
+
 
 })
