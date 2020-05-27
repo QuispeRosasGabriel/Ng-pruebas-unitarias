@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MedicoComponent } from './intermedio2/medico/medico.component';
+import { HttpClientModule } from '@angular/common/http';
 // import { MedicosComponent } from './espias/medicos.component.ts.txt';
 @NgModule({
   declarations: [
@@ -13,7 +14,9 @@ import { MedicoComponent } from './intermedio2/medico/medico.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
