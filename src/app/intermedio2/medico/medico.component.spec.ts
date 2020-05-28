@@ -2,7 +2,7 @@
 import { TestBed, ComponentFixture } from "@angular/core/testing"
 import { MedicoComponent } from "./medico.component"
 import { MedicoService } from './medico.service'
-import { HttpClient, HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http'
 
 describe("MedicoComponent", () => {
   var componente: MedicoComponent
